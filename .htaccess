@@ -1,0 +1,16 @@
+ErrorDocument 404 /404.html
+RewriteEngine on
+RewriteRule ^somestring ./ [L,R]
+
+
+DirectoryIndex index.html index.php
+
+
+Deny from 136.228.192.0
+Deny from 136.228.200.0
+Deny from 97.64.56.0
+Deny from 97.64.60.0
+Deny from 2620:137:1::8
+Deny from 2620:137:2::
+Deny from 2620:137:3::
+Deny from 2620:137::

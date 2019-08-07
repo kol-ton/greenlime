@@ -1,0 +1,19 @@
+.background {
+    background-color: #0D1B34;
+    opacity: 0.5;
+}
+
+@font-face {
+    font-family: title;
+    src: url(autobus.ttf);
+}
+@font-face {
+    font-family: comfort;
+    src: url(Comfortaa.ttf);
+}
+
+a {
+    margin: 0 auto;
+    text-align: center;
+    display: inline;
+}

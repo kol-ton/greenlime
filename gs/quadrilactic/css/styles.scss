@@ -1,0 +1,47 @@
+$foreground-color: #b4b4b4;
+$background-color: #121212;
+$highlight-color: #66eeff;
+
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background: linear-gradient($background-color, lighten($background-color, 10%));
+	color: $foreground-color;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+h1, a:link, a:active, a:visited, a:hover {
+	color: $highlight-color;
+}
+
+#viewport {
+	border: 1px solid $foreground-color;
+	background-color: white;
+	box-shadow: 10px 10px 50px black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.cell {
+	width: 400px;
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+	margin: 0;
+}
