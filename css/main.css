@@ -10,6 +10,10 @@ body{
   margin: 0;
   }
 
+  .tos {
+    color: #CD2769;
+  }
+
 html body {
     font-family: Bookman,Bookman,sans-serif;
     font-size: 12px;
